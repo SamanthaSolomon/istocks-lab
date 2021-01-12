@@ -14,14 +14,14 @@ const Dashboard = (props) => {
 
     return(
         <div>
-            <h2>This is the Dashboard Component</h2>
+            <h2>Check out the top searched stocks below</h2>
             <div className="dashboard">
                 {stocks.map((stock) => {
                     const {name, symbol} = stock
 
                     return(
                         <Link to={`/stock/${symbol}`}>
-                            <h3>{name}</h3>
+                            <h5>{name}</h5>
                         </Link>
                     )
                 })}

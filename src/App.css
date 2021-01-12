@@ -1,38 +1,75 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&family=Montserrat&display=swap');
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: navy;
+  color: white;
+  padding: 15px;
+  font-size: 2em;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+  font-family: 'Marcellus SC', serif;
+  font-size: 3rem;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.logo{
+  font-family: 'Marcellus SC', serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+div{
+  padding-left: 1%;
+  padding-right: 1%;
 }
 
-.App-link {
-  color: #61dafb;
+p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.dashboard{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+.stock{
+  text-align: center;
+  padding-top: 3%;
+}
+
+h3{
+  font-family: 'Marcellus SC', serif;
+  font-size: 2rem;
+}
+
+h4{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+}
+
+.aboutHeading{
+  font-family: 'Marcellus SC', serif;
+  font-size: 2rem;
+  text-align: left;
+}
+
+h5{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
 }

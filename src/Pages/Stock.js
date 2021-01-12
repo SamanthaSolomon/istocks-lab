@@ -22,10 +22,12 @@ const Stock = (props) => {
     
     const loaded = () => {
         return(
-        <div>
-            <h2>Here is the Stock Component</h2>
+        <div className="stock">
+            <img src={stock[0].image} alt={stock[0].companyName}/>
              <h3>{stock[0].symbol}</h3>
-             
+             <h4>{stock[0].companyName}</h4>
+             <p>Price: {stock[0].price} {stock[0].currency}</p>
+             <p>Change: {stock[0].changes}</p>
         </div>
         )
     }

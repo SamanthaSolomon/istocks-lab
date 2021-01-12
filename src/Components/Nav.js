@@ -3,9 +3,9 @@ import { Link } from "react-router-dom"
 
 const Nav = (props) => {
     return(
-        <div className ="nac">
+        <div className ="nav">
             <Link to="/">
-                <div>Home</div>
+                <div className="logo">BGPS</div>
             </Link>
             <Link to="/dashboard">
                 <div>Stocks</div>

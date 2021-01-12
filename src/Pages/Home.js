@@ -4,8 +4,8 @@ import Dashboard from "./Dashboard"
 const Home = (props) => {
     return(
         <div>
-        <h1>Here is the Home Component</h1>
-        <Dashboard />
+            <h1>Welcome to Big Gurrrl Pants Stocks</h1>
+            <Dashboard />
         </div>
     )
 }
