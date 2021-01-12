@@ -2,7 +2,10 @@ import React from "react"
 
 const About = (props) => {
     return(
-        <h1>Here is the About Component</h1>
+        <div>
+            <h1>Here is the About Component</h1>
+            <p>Data provided by Financial Modeling Prep</p>
+        </div>
     )
 }
 
